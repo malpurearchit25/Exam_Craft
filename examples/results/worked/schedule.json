@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "algorithm": "exact",
+  "configuration": {
+    "start_date": "2026-11-02",
+    "slots_per_day": 3,
+    "skip_weekends": false
+  },
+  "courses": [
+    {
+      "id": "CN",
+      "name": "Computer Networks",
+      "enrollment": 2
+    },
+    {
+      "id": "DB",
+      "name": "Database Systems",
+      "enrollment": 3
+    },
+    {
+      "id": "DM",
+      "name": "Discrete Mathematics",
+      "enrollment": 3
+    },
+    {
+      "id": "DS",
+      "name": "Data Structures",
+      "enrollment": 3
+    },
+    {
+      "id": "OS",
+      "name": "Operating Systems",
+      "enrollment": 3
+    },
+    {
+      "id": "WEB",
+      "name": "Web Technologies",
+      "enrollment": 2
+    }
+  ],
+  "assignments": [
+    {
+      "course_id": "CN",
+      "slot": 1
+    },
+    {
+      "course_id": "DB",
+      "slot": 3
+    },
+    {
+      "course_id": "DM",
+      "slot": 1
+    },
+    {
+      "course_id": "DS",
+      "slot": 2
+    },
+    {
+      "course_id": "OS",
+      "slot": 3
+    },
+    {
+      "course_id": "WEB",
+      "slot": 1
+    }
+  ],
+  "slots": [
+    {
+      "slot": 1,
+      "date": "2026-11-02",
+      "day": "Monday",
+      "time": "09:00–11:00",
+      "position_in_day": 1,
+      "courses": [
+        "CN",
+        "DM",
+        "WEB"
+      ],
+      "student_exams": 7
+    },
+    {
+      "slot": 2,
+      "date": "2026-11-02",
+      "day": "Monday",
+      "time": "12:00–14:00",
+      "position_in_day": 2,
+      "courses": [
+        "DS"
+      ],
+      "student_exams": 3
+    },
+    {
+      "slot": 3,
+      "date": "2026-11-02",
+      "day": "Monday",
+      "time": "15:00–17:00",
+      "position_in_day": 3,
+      "courses": [
+        "DB",
+        "OS"
+      ],
+      "student_exams": 6
+    }
+  ],
+  "statistics": {
+    "courses": 6,
+    "students": 8,
+    "registrations": 16,
+    "conflict_edges": 8,
+    "slots": 3,
+    "exam_days": 1,
+    "runtime_ms": 0.044,
+    "search_nodes": 0
+  },
+  "proof": {
+    "optimal": true,
+    "status": "bounds_met",
+    "lower_bound": 3,
+    "upper_bound": 3,
+    "clique_witness": [
+      "DB",
+      "DM",
+      "DS"
+    ],
+    "clique_size": 3
+  },
+  "soft_constraints": {
+    "before": {
+      "consecutive_exam_pairs": 7,
+      "students_with_consecutive_exams": 7
+    },
+    "after": {
+      "consecutive_exam_pairs": 3,
+      "students_with_consecutive_exams": 3
+    },
+    "optimization": {
+      "enabled": true,
+      "method": "two_sweep_color_class_swap",
+      "before": 7,
+      "after": 3,
+      "accepted_swaps": 2
+    }
+  },
+  "validation": {
+    "valid": true,
+    "missing_courses": [],
+    "unknown_courses": [],
+    "invalid_slot_courses": [],
+    "student_clashes": [],
+    "clash_count": 0,
+    "checked_students": 8,
+    "checked_registrations": 16
+  },
+  "warnings": [],
+  "algorithm_trace": [
+    {
+      "step": 1,
+      "course_id": "DB",
+      "slot": 1,
+      "degree": 3,
+      "saturation": 0
+    },
+    {
+      "step": 2,
+      "course_id": "DM",
+      "slot": 2,
+      "degree": 3,
+      "saturation": 1
+    },
+    {
+      "step": 3,
+      "course_id": "DS",
+      "slot": 3,
+      "degree": 3,
+      "saturation": 2
+    },
+    {
+      "step": 4,
+      "course_id": "OS",
+      "slot": 1,
+      "degree": 3,
+      "saturation": 1
+    },
+    {
+      "step": 5,
+      "course_id": "CN",
+      "slot": 2,
+      "degree": 2,
+      "saturation": 2
+    },
+    {
+      "step": 6,
+      "course_id": "WEB",
+      "slot": 2,
+      "degree": 2,
+      "saturation": 1
+    }
+  ],
+  "trace_note": "Trace records coloring before any calendar permutation; final assignments are authoritative."
+}

@@ -1,0 +1,10 @@
+{
+  "valid": true,
+  "missing_courses": [],
+  "unknown_courses": [],
+  "invalid_slot_courses": [],
+  "student_clashes": [],
+  "clash_count": 0,
+  "checked_students": 300,
+  "checked_registrations": 1356
+}

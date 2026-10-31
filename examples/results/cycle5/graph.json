@@ -1,0 +1,79 @@
+{
+  "vertices": [
+    {
+      "id": "A",
+      "degree": 2,
+      "enrollment": 2
+    },
+    {
+      "id": "B",
+      "degree": 2,
+      "enrollment": 2
+    },
+    {
+      "id": "C",
+      "degree": 2,
+      "enrollment": 2
+    },
+    {
+      "id": "D",
+      "degree": 2,
+      "enrollment": 2
+    },
+    {
+      "id": "E",
+      "degree": 2,
+      "enrollment": 2
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "B",
+      "shared_students": 1
+    },
+    {
+      "source": "A",
+      "target": "E",
+      "shared_students": 1
+    },
+    {
+      "source": "B",
+      "target": "C",
+      "shared_students": 1
+    },
+    {
+      "source": "C",
+      "target": "D",
+      "shared_students": 1
+    },
+    {
+      "source": "D",
+      "target": "E",
+      "shared_students": 1
+    }
+  ],
+  "adjacency_list": {
+    "A": [
+      "B",
+      "E"
+    ],
+    "B": [
+      "A",
+      "C"
+    ],
+    "C": [
+      "B",
+      "D"
+    ],
+    "D": [
+      "C",
+      "E"
+    ],
+    "E": [
+      "A",
+      "D"
+    ]
+  },
+  "density": 0.5
+}

@@ -1,0 +1,61 @@
+{
+  "courses": [
+    {
+      "id": "A",
+      "name": "Cycle course A"
+    },
+    {
+      "id": "B",
+      "name": "Cycle course B"
+    },
+    {
+      "id": "C",
+      "name": "Cycle course C"
+    },
+    {
+      "id": "D",
+      "name": "Cycle course D"
+    },
+    {
+      "id": "E",
+      "name": "Cycle course E"
+    }
+  ],
+  "students": [
+    {
+      "student_id": "S1",
+      "courses": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "student_id": "S2",
+      "courses": [
+        "B",
+        "C"
+      ]
+    },
+    {
+      "student_id": "S3",
+      "courses": [
+        "C",
+        "D"
+      ]
+    },
+    {
+      "student_id": "S4",
+      "courses": [
+        "D",
+        "E"
+      ]
+    },
+    {
+      "student_id": "S5",
+      "courses": [
+        "A",
+        "E"
+      ]
+    }
+  ]
+}

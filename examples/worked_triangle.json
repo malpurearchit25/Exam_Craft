@@ -1,0 +1,86 @@
+{
+  "courses": [
+    {
+      "id": "CN",
+      "name": "Computer Networks"
+    },
+    {
+      "id": "DB",
+      "name": "Database Systems"
+    },
+    {
+      "id": "DM",
+      "name": "Discrete Mathematics"
+    },
+    {
+      "id": "DS",
+      "name": "Data Structures"
+    },
+    {
+      "id": "OS",
+      "name": "Operating Systems"
+    },
+    {
+      "id": "WEB",
+      "name": "Web Technologies"
+    }
+  ],
+  "students": [
+    {
+      "student_id": "S001",
+      "courses": [
+        "DM",
+        "DS"
+      ]
+    },
+    {
+      "student_id": "S002",
+      "courses": [
+        "DB",
+        "DS"
+      ]
+    },
+    {
+      "student_id": "S003",
+      "courses": [
+        "DB",
+        "DM"
+      ]
+    },
+    {
+      "student_id": "S004",
+      "courses": [
+        "DM",
+        "OS"
+      ]
+    },
+    {
+      "student_id": "S005",
+      "courses": [
+        "CN",
+        "DS"
+      ]
+    },
+    {
+      "student_id": "S006",
+      "courses": [
+        "DB",
+        "WEB"
+      ]
+    },
+    {
+      "student_id": "S007",
+      "courses": [
+        "CN",
+        "OS"
+      ]
+    },
+    {
+      "student_id": "S008",
+      "courses": [
+        "OS",
+        "WEB"
+      ]
+    }
+  ]
+}

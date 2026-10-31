@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "examcraft-scheduler"
+version = "1.0.0"
+description = "Conflict-free university exam timetabling using graph coloring"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+examcraft = "scheduler.cli:main"
+
+[tool.setuptools]
+packages = ["scheduler"]

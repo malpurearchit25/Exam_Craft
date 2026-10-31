@@ -1,0 +1,6 @@
+slot,date,time,course_id,course_name,enrollment
+1,2026-11-02,09:00–11:00,A,Cycle course A,2
+1,2026-11-02,09:00–11:00,C,Cycle course C,2
+2,2026-11-02,12:00–14:00,B,Cycle course B,2
+2,2026-11-02,12:00–14:00,D,Cycle course D,2
+3,2026-11-02,15:00–17:00,E,Cycle course E,2

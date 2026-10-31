@@ -1,0 +1,15 @@
+{
+  "name": "examcraft-scheduler",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Discrete mathematics exam scheduling project: browser and Python engines",
+  "scripts": {
+    "test": "node --test tests/*.mjs",
+    "check": "node --check dist/app.js && node --check dist/engine.js && node --check dist/worker.js && node --check dist/exporters.js",
+    "start": "node serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

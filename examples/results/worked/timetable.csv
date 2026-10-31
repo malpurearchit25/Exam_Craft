@@ -1,0 +1,7 @@
+slot,date,time,course_id,course_name,enrollment
+1,2026-11-02,09:00–11:00,CN,Computer Networks,2
+1,2026-11-02,09:00–11:00,DM,Discrete Mathematics,3
+1,2026-11-02,09:00–11:00,WEB,Web Technologies,2
+2,2026-11-02,12:00–14:00,DS,Data Structures,3
+3,2026-11-02,15:00–17:00,DB,Database Systems,3
+3,2026-11-02,15:00–17:00,OS,Operating Systems,3

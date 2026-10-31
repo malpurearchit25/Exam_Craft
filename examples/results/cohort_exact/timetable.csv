@@ -1,0 +1,31 @@
+slot,date,time,course_id,course_name,enrollment
+1,2026-11-02,09:00–11:00,CS102,Data Structures,46
+1,2026-11-02,09:00–11:00,CS109,Probability & Statistics,49
+2,2026-11-02,12:00–14:00,CS127,Distributed Systems,65
+3,2026-11-02,15:00–17:00,CS108,Object Oriented Programming,37
+3,2026-11-02,15:00–17:00,CS115,Design & Analysis of Algorithms,34
+3,2026-11-02,15:00–17:00,CS121,Cloud Computing,37
+4,2026-11-03,09:00–11:00,CS105,Operating Systems,43
+4,2026-11-03,09:00–11:00,CS114,Computer Architecture,40
+4,2026-11-03,09:00–11:00,CS130,Internet of Things,60
+5,2026-11-03,12:00–14:00,CS111,Theory of Computation,45
+5,2026-11-03,12:00–14:00,CS122,Human Computer Interaction,48
+6,2026-11-03,15:00–17:00,CS101,Discrete Mathematics,43
+6,2026-11-03,15:00–17:00,CS120,Numerical Methods,43
+6,2026-11-03,15:00–17:00,CS128,Optimization Techniques,54
+7,2026-11-04,09:00–11:00,CS103,Computer Networks,47
+7,2026-11-04,09:00–11:00,CS119,Machine Learning,43
+7,2026-11-04,09:00–11:00,CS125,Graph Theory,50
+8,2026-11-04,12:00–14:00,CS110,Software Engineering,39
+8,2026-11-04,12:00–14:00,CS123,Embedded Systems,41
+9,2026-11-04,15:00–17:00,CS107,Programming in C,40
+9,2026-11-04,15:00–17:00,CS113,Digital Logic,35
+9,2026-11-04,15:00–17:00,CS118,Information Security,35
+9,2026-11-04,15:00–17:00,CS126,Mobile Computing,58
+10,2026-11-05,09:00–11:00,CS112,Web Technologies,52
+10,2026-11-05,09:00–11:00,CS124,Data Science,47
+10,2026-11-05,09:00–11:00,CS129,Computer Graphics,56
+11,2026-11-05,12:00–14:00,CS104,Database Systems,47
+11,2026-11-05,12:00–14:00,CS117,Compiler Design,40
+12,2026-11-05,15:00–17:00,CS106,Linear Algebra,32
+12,2026-11-05,15:00–17:00,CS116,Artificial Intelligence,50

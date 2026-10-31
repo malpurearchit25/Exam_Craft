@@ -1,0 +1,107 @@
+{
+  "vertices": [
+    {
+      "id": "CN",
+      "degree": 2,
+      "enrollment": 2
+    },
+    {
+      "id": "DB",
+      "degree": 3,
+      "enrollment": 3
+    },
+    {
+      "id": "DM",
+      "degree": 3,
+      "enrollment": 3
+    },
+    {
+      "id": "DS",
+      "degree": 3,
+      "enrollment": 3
+    },
+    {
+      "id": "OS",
+      "degree": 3,
+      "enrollment": 3
+    },
+    {
+      "id": "WEB",
+      "degree": 2,
+      "enrollment": 2
+    }
+  ],
+  "edges": [
+    {
+      "source": "CN",
+      "target": "DS",
+      "shared_students": 1
+    },
+    {
+      "source": "CN",
+      "target": "OS",
+      "shared_students": 1
+    },
+    {
+      "source": "DB",
+      "target": "DM",
+      "shared_students": 1
+    },
+    {
+      "source": "DB",
+      "target": "DS",
+      "shared_students": 1
+    },
+    {
+      "source": "DB",
+      "target": "WEB",
+      "shared_students": 1
+    },
+    {
+      "source": "DM",
+      "target": "DS",
+      "shared_students": 1
+    },
+    {
+      "source": "DM",
+      "target": "OS",
+      "shared_students": 1
+    },
+    {
+      "source": "OS",
+      "target": "WEB",
+      "shared_students": 1
+    }
+  ],
+  "adjacency_list": {
+    "CN": [
+      "DS",
+      "OS"
+    ],
+    "DB": [
+      "DM",
+      "DS",
+      "WEB"
+    ],
+    "DM": [
+      "DB",
+      "DS",
+      "OS"
+    ],
+    "DS": [
+      "CN",
+      "DB",
+      "DM"
+    ],
+    "OS": [
+      "CN",
+      "DM",
+      "WEB"
+    ],
+    "WEB": [
+      "DB",
+      "OS"
+    ]
+  },
+  "density": 0.5333333333333333
+}

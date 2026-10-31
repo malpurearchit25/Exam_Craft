@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "algorithm": "exact",
+  "configuration": {
+    "start_date": "2026-11-02",
+    "slots_per_day": 3,
+    "skip_weekends": false
+  },
+  "courses": [
+    {
+      "id": "A",
+      "name": "Cycle course A",
+      "enrollment": 2
+    },
+    {
+      "id": "B",
+      "name": "Cycle course B",
+      "enrollment": 2
+    },
+    {
+      "id": "C",
+      "name": "Cycle course C",
+      "enrollment": 2
+    },
+    {
+      "id": "D",
+      "name": "Cycle course D",
+      "enrollment": 2
+    },
+    {
+      "id": "E",
+      "name": "Cycle course E",
+      "enrollment": 2
+    }
+  ],
+  "assignments": [
+    {
+      "course_id": "A",
+      "slot": 1
+    },
+    {
+      "course_id": "B",
+      "slot": 2
+    },
+    {
+      "course_id": "C",
+      "slot": 1
+    },
+    {
+      "course_id": "D",
+      "slot": 2
+    },
+    {
+      "course_id": "E",
+      "slot": 3
+    }
+  ],
+  "slots": [
+    {
+      "slot": 1,
+      "date": "2026-11-02",
+      "day": "Monday",
+      "time": "09:00–11:00",
+      "position_in_day": 1,
+      "courses": [
+        "A",
+        "C"
+      ],
+      "student_exams": 4
+    },
+    {
+      "slot": 2,
+      "date": "2026-11-02",
+      "day": "Monday",
+      "time": "12:00–14:00",
+      "position_in_day": 2,
+      "courses": [
+        "B",
+        "D"
+      ],
+      "student_exams": 4
+    },
+    {
+      "slot": 3,
+      "date": "2026-11-02",
+      "day": "Monday",
+      "time": "15:00–17:00",
+      "position_in_day": 3,
+      "courses": [
+        "E"
+      ],
+      "student_exams": 2
+    }
+  ],
+  "statistics": {
+    "courses": 5,
+    "students": 5,
+    "registrations": 10,
+    "conflict_edges": 5,
+    "slots": 3,
+    "exam_days": 1,
+    "runtime_ms": 0.056,
+    "search_nodes": 5
+  },
+  "proof": {
+    "optimal": true,
+    "status": "search_exhausted",
+    "lower_bound": 3,
+    "upper_bound": 3,
+    "clique_witness": [
+      "A",
+      "B"
+    ],
+    "clique_size": 2
+  },
+  "soft_constraints": {
+    "before": {
+      "consecutive_exam_pairs": 4,
+      "students_with_consecutive_exams": 4
+    },
+    "after": {
+      "consecutive_exam_pairs": 4,
+      "students_with_consecutive_exams": 4
+    },
+    "optimization": {
+      "enabled": false,
+      "method": "none"
+    }
+  },
+  "validation": {
+    "valid": true,
+    "missing_courses": [],
+    "unknown_courses": [],
+    "invalid_slot_courses": [],
+    "student_clashes": [],
+    "clash_count": 0,
+    "checked_students": 5,
+    "checked_registrations": 10
+  },
+  "warnings": [],
+  "algorithm_trace": [],
+  "trace_note": "Trace records coloring before any calendar permutation; final assignments are authoritative."
+}

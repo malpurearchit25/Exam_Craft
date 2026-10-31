@@ -1,0 +1,3 @@
+# Python 3.10+; no third-party dependencies are required.
+# python3 run.py launches the browser app.
+# python3 -m scheduler --help shows the CLI.

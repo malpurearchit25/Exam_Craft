@@ -1,0 +1,2431 @@
+{
+  "vertices": [
+    {
+      "id": "CS101",
+      "degree": 20,
+      "enrollment": 43
+    },
+    {
+      "id": "CS102",
+      "degree": 23,
+      "enrollment": 46
+    },
+    {
+      "id": "CS103",
+      "degree": 20,
+      "enrollment": 47
+    },
+    {
+      "id": "CS104",
+      "degree": 18,
+      "enrollment": 47
+    },
+    {
+      "id": "CS105",
+      "degree": 20,
+      "enrollment": 43
+    },
+    {
+      "id": "CS106",
+      "degree": 18,
+      "enrollment": 32
+    },
+    {
+      "id": "CS107",
+      "degree": 19,
+      "enrollment": 40
+    },
+    {
+      "id": "CS108",
+      "degree": 19,
+      "enrollment": 37
+    },
+    {
+      "id": "CS109",
+      "degree": 22,
+      "enrollment": 49
+    },
+    {
+      "id": "CS110",
+      "degree": 23,
+      "enrollment": 39
+    },
+    {
+      "id": "CS111",
+      "degree": 25,
+      "enrollment": 45
+    },
+    {
+      "id": "CS112",
+      "degree": 22,
+      "enrollment": 52
+    },
+    {
+      "id": "CS113",
+      "degree": 20,
+      "enrollment": 35
+    },
+    {
+      "id": "CS114",
+      "degree": 19,
+      "enrollment": 40
+    },
+    {
+      "id": "CS115",
+      "degree": 17,
+      "enrollment": 34
+    },
+    {
+      "id": "CS116",
+      "degree": 22,
+      "enrollment": 50
+    },
+    {
+      "id": "CS117",
+      "degree": 28,
+      "enrollment": 40
+    },
+    {
+      "id": "CS118",
+      "degree": 16,
+      "enrollment": 35
+    },
+    {
+      "id": "CS119",
+      "degree": 21,
+      "enrollment": 43
+    },
+    {
+      "id": "CS120",
+      "degree": 21,
+      "enrollment": 43
+    },
+    {
+      "id": "CS121",
+      "degree": 23,
+      "enrollment": 37
+    },
+    {
+      "id": "CS122",
+      "degree": 22,
+      "enrollment": 48
+    },
+    {
+      "id": "CS123",
+      "degree": 24,
+      "enrollment": 41
+    },
+    {
+      "id": "CS124",
+      "degree": 22,
+      "enrollment": 47
+    },
+    {
+      "id": "CS125",
+      "degree": 15,
+      "enrollment": 50
+    },
+    {
+      "id": "CS126",
+      "degree": 19,
+      "enrollment": 58
+    },
+    {
+      "id": "CS127",
+      "degree": 27,
+      "enrollment": 65
+    },
+    {
+      "id": "CS128",
+      "degree": 23,
+      "enrollment": 54
+    },
+    {
+      "id": "CS129",
+      "degree": 20,
+      "enrollment": 56
+    },
+    {
+      "id": "CS130",
+      "degree": 24,
+      "enrollment": 60
+    }
+  ],
+  "edges": [
+    {
+      "source": "CS101",
+      "target": "CS102",
+      "shared_students": 24
+    },
+    {
+      "source": "CS101",
+      "target": "CS103",
+      "shared_students": 22
+    },
+    {
+      "source": "CS101",
+      "target": "CS104",
+      "shared_students": 23
+    },
+    {
+      "source": "CS101",
+      "target": "CS105",
+      "shared_students": 21
+    },
+    {
+      "source": "CS101",
+      "target": "CS106",
+      "shared_students": 16
+    },
+    {
+      "source": "CS101",
+      "target": "CS107",
+      "shared_students": 22
+    },
+    {
+      "source": "CS101",
+      "target": "CS108",
+      "shared_students": 15
+    },
+    {
+      "source": "CS101",
+      "target": "CS110",
+      "shared_students": 1
+    },
+    {
+      "source": "CS101",
+      "target": "CS111",
+      "shared_students": 2
+    },
+    {
+      "source": "CS101",
+      "target": "CS112",
+      "shared_students": 2
+    },
+    {
+      "source": "CS101",
+      "target": "CS114",
+      "shared_students": 1
+    },
+    {
+      "source": "CS101",
+      "target": "CS116",
+      "shared_students": 2
+    },
+    {
+      "source": "CS101",
+      "target": "CS117",
+      "shared_students": 1
+    },
+    {
+      "source": "CS101",
+      "target": "CS118",
+      "shared_students": 1
+    },
+    {
+      "source": "CS101",
+      "target": "CS121",
+      "shared_students": 1
+    },
+    {
+      "source": "CS101",
+      "target": "CS122",
+      "shared_students": 1
+    },
+    {
+      "source": "CS101",
+      "target": "CS123",
+      "shared_students": 1
+    },
+    {
+      "source": "CS101",
+      "target": "CS124",
+      "shared_students": 2
+    },
+    {
+      "source": "CS101",
+      "target": "CS127",
+      "shared_students": 1
+    },
+    {
+      "source": "CS101",
+      "target": "CS130",
+      "shared_students": 1
+    },
+    {
+      "source": "CS102",
+      "target": "CS103",
+      "shared_students": 26
+    },
+    {
+      "source": "CS102",
+      "target": "CS104",
+      "shared_students": 22
+    },
+    {
+      "source": "CS102",
+      "target": "CS105",
+      "shared_students": 22
+    },
+    {
+      "source": "CS102",
+      "target": "CS106",
+      "shared_students": 14
+    },
+    {
+      "source": "CS102",
+      "target": "CS107",
+      "shared_students": 22
+    },
+    {
+      "source": "CS102",
+      "target": "CS108",
+      "shared_students": 21
+    },
+    {
+      "source": "CS102",
+      "target": "CS111",
+      "shared_students": 3
+    },
+    {
+      "source": "CS102",
+      "target": "CS112",
+      "shared_students": 4
+    },
+    {
+      "source": "CS102",
+      "target": "CS116",
+      "shared_students": 2
+    },
+    {
+      "source": "CS102",
+      "target": "CS117",
+      "shared_students": 2
+    },
+    {
+      "source": "CS102",
+      "target": "CS118",
+      "shared_students": 2
+    },
+    {
+      "source": "CS102",
+      "target": "CS119",
+      "shared_students": 1
+    },
+    {
+      "source": "CS102",
+      "target": "CS120",
+      "shared_students": 1
+    },
+    {
+      "source": "CS102",
+      "target": "CS121",
+      "shared_students": 2
+    },
+    {
+      "source": "CS102",
+      "target": "CS123",
+      "shared_students": 2
+    },
+    {
+      "source": "CS102",
+      "target": "CS124",
+      "shared_students": 2
+    },
+    {
+      "source": "CS102",
+      "target": "CS125",
+      "shared_students": 2
+    },
+    {
+      "source": "CS102",
+      "target": "CS126",
+      "shared_students": 1
+    },
+    {
+      "source": "CS102",
+      "target": "CS127",
+      "shared_students": 1
+    },
+    {
+      "source": "CS102",
+      "target": "CS128",
+      "shared_students": 1
+    },
+    {
+      "source": "CS102",
+      "target": "CS129",
+      "shared_students": 2
+    },
+    {
+      "source": "CS102",
+      "target": "CS130",
+      "shared_students": 1
+    },
+    {
+      "source": "CS103",
+      "target": "CS104",
+      "shared_students": 26
+    },
+    {
+      "source": "CS103",
+      "target": "CS105",
+      "shared_students": 24
+    },
+    {
+      "source": "CS103",
+      "target": "CS106",
+      "shared_students": 17
+    },
+    {
+      "source": "CS103",
+      "target": "CS107",
+      "shared_students": 20
+    },
+    {
+      "source": "CS103",
+      "target": "CS108",
+      "shared_students": 17
+    },
+    {
+      "source": "CS103",
+      "target": "CS109",
+      "shared_students": 1
+    },
+    {
+      "source": "CS103",
+      "target": "CS111",
+      "shared_students": 1
+    },
+    {
+      "source": "CS103",
+      "target": "CS112",
+      "shared_students": 3
+    },
+    {
+      "source": "CS103",
+      "target": "CS116",
+      "shared_students": 3
+    },
+    {
+      "source": "CS103",
+      "target": "CS117",
+      "shared_students": 1
+    },
+    {
+      "source": "CS103",
+      "target": "CS120",
+      "shared_students": 1
+    },
+    {
+      "source": "CS103",
+      "target": "CS121",
+      "shared_students": 1
+    },
+    {
+      "source": "CS103",
+      "target": "CS123",
+      "shared_students": 1
+    },
+    {
+      "source": "CS103",
+      "target": "CS124",
+      "shared_students": 1
+    },
+    {
+      "source": "CS103",
+      "target": "CS126",
+      "shared_students": 1
+    },
+    {
+      "source": "CS103",
+      "target": "CS127",
+      "shared_students": 1
+    },
+    {
+      "source": "CS103",
+      "target": "CS129",
+      "shared_students": 1
+    },
+    {
+      "source": "CS103",
+      "target": "CS130",
+      "shared_students": 1
+    },
+    {
+      "source": "CS104",
+      "target": "CS105",
+      "shared_students": 23
+    },
+    {
+      "source": "CS104",
+      "target": "CS106",
+      "shared_students": 19
+    },
+    {
+      "source": "CS104",
+      "target": "CS107",
+      "shared_students": 17
+    },
+    {
+      "source": "CS104",
+      "target": "CS108",
+      "shared_students": 19
+    },
+    {
+      "source": "CS104",
+      "target": "CS110",
+      "shared_students": 1
+    },
+    {
+      "source": "CS104",
+      "target": "CS116",
+      "shared_students": 2
+    },
+    {
+      "source": "CS104",
+      "target": "CS118",
+      "shared_students": 1
+    },
+    {
+      "source": "CS104",
+      "target": "CS122",
+      "shared_students": 1
+    },
+    {
+      "source": "CS104",
+      "target": "CS123",
+      "shared_students": 2
+    },
+    {
+      "source": "CS104",
+      "target": "CS125",
+      "shared_students": 1
+    },
+    {
+      "source": "CS104",
+      "target": "CS126",
+      "shared_students": 1
+    },
+    {
+      "source": "CS104",
+      "target": "CS127",
+      "shared_students": 2
+    },
+    {
+      "source": "CS104",
+      "target": "CS128",
+      "shared_students": 1
+    },
+    {
+      "source": "CS104",
+      "target": "CS129",
+      "shared_students": 2
+    },
+    {
+      "source": "CS104",
+      "target": "CS130",
+      "shared_students": 1
+    },
+    {
+      "source": "CS105",
+      "target": "CS106",
+      "shared_students": 12
+    },
+    {
+      "source": "CS105",
+      "target": "CS107",
+      "shared_students": 15
+    },
+    {
+      "source": "CS105",
+      "target": "CS108",
+      "shared_students": 17
+    },
+    {
+      "source": "CS105",
+      "target": "CS109",
+      "shared_students": 2
+    },
+    {
+      "source": "CS105",
+      "target": "CS111",
+      "shared_students": 2
+    },
+    {
+      "source": "CS105",
+      "target": "CS112",
+      "shared_students": 2
+    },
+    {
+      "source": "CS105",
+      "target": "CS113",
+      "shared_students": 2
+    },
+    {
+      "source": "CS105",
+      "target": "CS116",
+      "shared_students": 4
+    },
+    {
+      "source": "CS105",
+      "target": "CS117",
+      "shared_students": 2
+    },
+    {
+      "source": "CS105",
+      "target": "CS123",
+      "shared_students": 1
+    },
+    {
+      "source": "CS105",
+      "target": "CS124",
+      "shared_students": 2
+    },
+    {
+      "source": "CS105",
+      "target": "CS125",
+      "shared_students": 1
+    },
+    {
+      "source": "CS105",
+      "target": "CS126",
+      "shared_students": 2
+    },
+    {
+      "source": "CS105",
+      "target": "CS127",
+      "shared_students": 3
+    },
+    {
+      "source": "CS105",
+      "target": "CS128",
+      "shared_students": 1
+    },
+    {
+      "source": "CS105",
+      "target": "CS129",
+      "shared_students": 2
+    },
+    {
+      "source": "CS106",
+      "target": "CS107",
+      "shared_students": 13
+    },
+    {
+      "source": "CS106",
+      "target": "CS108",
+      "shared_students": 13
+    },
+    {
+      "source": "CS106",
+      "target": "CS110",
+      "shared_students": 2
+    },
+    {
+      "source": "CS106",
+      "target": "CS111",
+      "shared_students": 1
+    },
+    {
+      "source": "CS106",
+      "target": "CS112",
+      "shared_students": 2
+    },
+    {
+      "source": "CS106",
+      "target": "CS113",
+      "shared_students": 1
+    },
+    {
+      "source": "CS106",
+      "target": "CS114",
+      "shared_students": 1
+    },
+    {
+      "source": "CS106",
+      "target": "CS115",
+      "shared_students": 1
+    },
+    {
+      "source": "CS106",
+      "target": "CS117",
+      "shared_students": 1
+    },
+    {
+      "source": "CS106",
+      "target": "CS121",
+      "shared_students": 1
+    },
+    {
+      "source": "CS106",
+      "target": "CS123",
+      "shared_students": 1
+    },
+    {
+      "source": "CS106",
+      "target": "CS127",
+      "shared_students": 1
+    },
+    {
+      "source": "CS106",
+      "target": "CS130",
+      "shared_students": 1
+    },
+    {
+      "source": "CS107",
+      "target": "CS108",
+      "shared_students": 17
+    },
+    {
+      "source": "CS107",
+      "target": "CS110",
+      "shared_students": 1
+    },
+    {
+      "source": "CS107",
+      "target": "CS111",
+      "shared_students": 3
+    },
+    {
+      "source": "CS107",
+      "target": "CS112",
+      "shared_students": 2
+    },
+    {
+      "source": "CS107",
+      "target": "CS114",
+      "shared_students": 1
+    },
+    {
+      "source": "CS107",
+      "target": "CS115",
+      "shared_students": 1
+    },
+    {
+      "source": "CS107",
+      "target": "CS116",
+      "shared_students": 2
+    },
+    {
+      "source": "CS107",
+      "target": "CS117",
+      "shared_students": 2
+    },
+    {
+      "source": "CS107",
+      "target": "CS120",
+      "shared_students": 1
+    },
+    {
+      "source": "CS107",
+      "target": "CS121",
+      "shared_students": 1
+    },
+    {
+      "source": "CS107",
+      "target": "CS124",
+      "shared_students": 3
+    },
+    {
+      "source": "CS107",
+      "target": "CS128",
+      "shared_students": 1
+    },
+    {
+      "source": "CS107",
+      "target": "CS130",
+      "shared_students": 1
+    },
+    {
+      "source": "CS108",
+      "target": "CS109",
+      "shared_students": 1
+    },
+    {
+      "source": "CS108",
+      "target": "CS110",
+      "shared_students": 1
+    },
+    {
+      "source": "CS108",
+      "target": "CS111",
+      "shared_students": 2
+    },
+    {
+      "source": "CS108",
+      "target": "CS112",
+      "shared_students": 3
+    },
+    {
+      "source": "CS108",
+      "target": "CS113",
+      "shared_students": 1
+    },
+    {
+      "source": "CS108",
+      "target": "CS116",
+      "shared_students": 3
+    },
+    {
+      "source": "CS108",
+      "target": "CS117",
+      "shared_students": 1
+    },
+    {
+      "source": "CS108",
+      "target": "CS122",
+      "shared_students": 1
+    },
+    {
+      "source": "CS108",
+      "target": "CS123",
+      "shared_students": 1
+    },
+    {
+      "source": "CS108",
+      "target": "CS124",
+      "shared_students": 2
+    },
+    {
+      "source": "CS108",
+      "target": "CS128",
+      "shared_students": 1
+    },
+    {
+      "source": "CS108",
+      "target": "CS130",
+      "shared_students": 1
+    },
+    {
+      "source": "CS109",
+      "target": "CS110",
+      "shared_students": 21
+    },
+    {
+      "source": "CS109",
+      "target": "CS111",
+      "shared_students": 28
+    },
+    {
+      "source": "CS109",
+      "target": "CS112",
+      "shared_students": 26
+    },
+    {
+      "source": "CS109",
+      "target": "CS113",
+      "shared_students": 19
+    },
+    {
+      "source": "CS109",
+      "target": "CS114",
+      "shared_students": 22
+    },
+    {
+      "source": "CS109",
+      "target": "CS115",
+      "shared_students": 20
+    },
+    {
+      "source": "CS109",
+      "target": "CS116",
+      "shared_students": 24
+    },
+    {
+      "source": "CS109",
+      "target": "CS117",
+      "shared_students": 1
+    },
+    {
+      "source": "CS109",
+      "target": "CS119",
+      "shared_students": 2
+    },
+    {
+      "source": "CS109",
+      "target": "CS120",
+      "shared_students": 2
+    },
+    {
+      "source": "CS109",
+      "target": "CS121",
+      "shared_students": 1
+    },
+    {
+      "source": "CS109",
+      "target": "CS122",
+      "shared_students": 1
+    },
+    {
+      "source": "CS109",
+      "target": "CS123",
+      "shared_students": 1
+    },
+    {
+      "source": "CS109",
+      "target": "CS124",
+      "shared_students": 2
+    },
+    {
+      "source": "CS109",
+      "target": "CS126",
+      "shared_students": 1
+    },
+    {
+      "source": "CS109",
+      "target": "CS127",
+      "shared_students": 3
+    },
+    {
+      "source": "CS109",
+      "target": "CS128",
+      "shared_students": 4
+    },
+    {
+      "source": "CS109",
+      "target": "CS129",
+      "shared_students": 2
+    },
+    {
+      "source": "CS109",
+      "target": "CS130",
+      "shared_students": 2
+    },
+    {
+      "source": "CS110",
+      "target": "CS111",
+      "shared_students": 16
+    },
+    {
+      "source": "CS110",
+      "target": "CS112",
+      "shared_students": 17
+    },
+    {
+      "source": "CS110",
+      "target": "CS113",
+      "shared_students": 14
+    },
+    {
+      "source": "CS110",
+      "target": "CS114",
+      "shared_students": 17
+    },
+    {
+      "source": "CS110",
+      "target": "CS115",
+      "shared_students": 13
+    },
+    {
+      "source": "CS110",
+      "target": "CS116",
+      "shared_students": 20
+    },
+    {
+      "source": "CS110",
+      "target": "CS117",
+      "shared_students": 2
+    },
+    {
+      "source": "CS110",
+      "target": "CS119",
+      "shared_students": 1
+    },
+    {
+      "source": "CS110",
+      "target": "CS120",
+      "shared_students": 2
+    },
+    {
+      "source": "CS110",
+      "target": "CS121",
+      "shared_students": 1
+    },
+    {
+      "source": "CS110",
+      "target": "CS122",
+      "shared_students": 2
+    },
+    {
+      "source": "CS110",
+      "target": "CS124",
+      "shared_students": 3
+    },
+    {
+      "source": "CS110",
+      "target": "CS125",
+      "shared_students": 2
+    },
+    {
+      "source": "CS110",
+      "target": "CS126",
+      "shared_students": 1
+    },
+    {
+      "source": "CS110",
+      "target": "CS127",
+      "shared_students": 1
+    },
+    {
+      "source": "CS110",
+      "target": "CS128",
+      "shared_students": 1
+    },
+    {
+      "source": "CS110",
+      "target": "CS130",
+      "shared_students": 3
+    },
+    {
+      "source": "CS111",
+      "target": "CS112",
+      "shared_students": 27
+    },
+    {
+      "source": "CS111",
+      "target": "CS113",
+      "shared_students": 19
+    },
+    {
+      "source": "CS111",
+      "target": "CS114",
+      "shared_students": 15
+    },
+    {
+      "source": "CS111",
+      "target": "CS115",
+      "shared_students": 18
+    },
+    {
+      "source": "CS111",
+      "target": "CS116",
+      "shared_students": 23
+    },
+    {
+      "source": "CS111",
+      "target": "CS117",
+      "shared_students": 2
+    },
+    {
+      "source": "CS111",
+      "target": "CS119",
+      "shared_students": 2
+    },
+    {
+      "source": "CS111",
+      "target": "CS120",
+      "shared_students": 2
+    },
+    {
+      "source": "CS111",
+      "target": "CS121",
+      "shared_students": 1
+    },
+    {
+      "source": "CS111",
+      "target": "CS123",
+      "shared_students": 1
+    },
+    {
+      "source": "CS111",
+      "target": "CS124",
+      "shared_students": 2
+    },
+    {
+      "source": "CS111",
+      "target": "CS125",
+      "shared_students": 1
+    },
+    {
+      "source": "CS111",
+      "target": "CS126",
+      "shared_students": 2
+    },
+    {
+      "source": "CS111",
+      "target": "CS127",
+      "shared_students": 2
+    },
+    {
+      "source": "CS111",
+      "target": "CS129",
+      "shared_students": 2
+    },
+    {
+      "source": "CS111",
+      "target": "CS130",
+      "shared_students": 1
+    },
+    {
+      "source": "CS112",
+      "target": "CS113",
+      "shared_students": 22
+    },
+    {
+      "source": "CS112",
+      "target": "CS114",
+      "shared_students": 25
+    },
+    {
+      "source": "CS112",
+      "target": "CS115",
+      "shared_students": 19
+    },
+    {
+      "source": "CS112",
+      "target": "CS116",
+      "shared_students": 28
+    },
+    {
+      "source": "CS112",
+      "target": "CS117",
+      "shared_students": 1
+    },
+    {
+      "source": "CS112",
+      "target": "CS119",
+      "shared_students": 1
+    },
+    {
+      "source": "CS112",
+      "target": "CS120",
+      "shared_students": 1
+    },
+    {
+      "source": "CS112",
+      "target": "CS121",
+      "shared_students": 1
+    },
+    {
+      "source": "CS112",
+      "target": "CS122",
+      "shared_students": 2
+    },
+    {
+      "source": "CS112",
+      "target": "CS127",
+      "shared_students": 1
+    },
+    {
+      "source": "CS112",
+      "target": "CS128",
+      "shared_students": 1
+    },
+    {
+      "source": "CS112",
+      "target": "CS130",
+      "shared_students": 1
+    },
+    {
+      "source": "CS113",
+      "target": "CS114",
+      "shared_students": 17
+    },
+    {
+      "source": "CS113",
+      "target": "CS115",
+      "shared_students": 10
+    },
+    {
+      "source": "CS113",
+      "target": "CS116",
+      "shared_students": 21
+    },
+    {
+      "source": "CS113",
+      "target": "CS117",
+      "shared_students": 1
+    },
+    {
+      "source": "CS113",
+      "target": "CS119",
+      "shared_students": 2
+    },
+    {
+      "source": "CS113",
+      "target": "CS120",
+      "shared_students": 1
+    },
+    {
+      "source": "CS113",
+      "target": "CS121",
+      "shared_students": 1
+    },
+    {
+      "source": "CS113",
+      "target": "CS122",
+      "shared_students": 2
+    },
+    {
+      "source": "CS113",
+      "target": "CS124",
+      "shared_students": 2
+    },
+    {
+      "source": "CS113",
+      "target": "CS125",
+      "shared_students": 1
+    },
+    {
+      "source": "CS113",
+      "target": "CS127",
+      "shared_students": 3
+    },
+    {
+      "source": "CS113",
+      "target": "CS128",
+      "shared_students": 2
+    },
+    {
+      "source": "CS113",
+      "target": "CS129",
+      "shared_students": 2
+    },
+    {
+      "source": "CS114",
+      "target": "CS115",
+      "shared_students": 17
+    },
+    {
+      "source": "CS114",
+      "target": "CS116",
+      "shared_students": 22
+    },
+    {
+      "source": "CS114",
+      "target": "CS117",
+      "shared_students": 1
+    },
+    {
+      "source": "CS114",
+      "target": "CS119",
+      "shared_students": 1
+    },
+    {
+      "source": "CS114",
+      "target": "CS120",
+      "shared_students": 1
+    },
+    {
+      "source": "CS114",
+      "target": "CS122",
+      "shared_students": 2
+    },
+    {
+      "source": "CS114",
+      "target": "CS123",
+      "shared_students": 2
+    },
+    {
+      "source": "CS114",
+      "target": "CS124",
+      "shared_students": 1
+    },
+    {
+      "source": "CS114",
+      "target": "CS127",
+      "shared_students": 3
+    },
+    {
+      "source": "CS114",
+      "target": "CS128",
+      "shared_students": 2
+    },
+    {
+      "source": "CS114",
+      "target": "CS129",
+      "shared_students": 1
+    },
+    {
+      "source": "CS115",
+      "target": "CS116",
+      "shared_students": 19
+    },
+    {
+      "source": "CS115",
+      "target": "CS117",
+      "shared_students": 1
+    },
+    {
+      "source": "CS115",
+      "target": "CS119",
+      "shared_students": 1
+    },
+    {
+      "source": "CS115",
+      "target": "CS120",
+      "shared_students": 2
+    },
+    {
+      "source": "CS115",
+      "target": "CS123",
+      "shared_students": 1
+    },
+    {
+      "source": "CS115",
+      "target": "CS124",
+      "shared_students": 2
+    },
+    {
+      "source": "CS115",
+      "target": "CS127",
+      "shared_students": 2
+    },
+    {
+      "source": "CS115",
+      "target": "CS128",
+      "shared_students": 1
+    },
+    {
+      "source": "CS115",
+      "target": "CS130",
+      "shared_students": 1
+    },
+    {
+      "source": "CS116",
+      "target": "CS117",
+      "shared_students": 2
+    },
+    {
+      "source": "CS116",
+      "target": "CS118",
+      "shared_students": 1
+    },
+    {
+      "source": "CS116",
+      "target": "CS119",
+      "shared_students": 3
+    },
+    {
+      "source": "CS116",
+      "target": "CS122",
+      "shared_students": 1
+    },
+    {
+      "source": "CS116",
+      "target": "CS123",
+      "shared_students": 2
+    },
+    {
+      "source": "CS116",
+      "target": "CS124",
+      "shared_students": 2
+    },
+    {
+      "source": "CS116",
+      "target": "CS127",
+      "shared_students": 2
+    },
+    {
+      "source": "CS116",
+      "target": "CS128",
+      "shared_students": 2
+    },
+    {
+      "source": "CS117",
+      "target": "CS118",
+      "shared_students": 13
+    },
+    {
+      "source": "CS117",
+      "target": "CS119",
+      "shared_students": 17
+    },
+    {
+      "source": "CS117",
+      "target": "CS120",
+      "shared_students": 22
+    },
+    {
+      "source": "CS117",
+      "target": "CS121",
+      "shared_students": 14
+    },
+    {
+      "source": "CS117",
+      "target": "CS122",
+      "shared_students": 17
+    },
+    {
+      "source": "CS117",
+      "target": "CS123",
+      "shared_students": 18
+    },
+    {
+      "source": "CS117",
+      "target": "CS124",
+      "shared_students": 18
+    },
+    {
+      "source": "CS117",
+      "target": "CS125",
+      "shared_students": 2
+    },
+    {
+      "source": "CS117",
+      "target": "CS126",
+      "shared_students": 3
+    },
+    {
+      "source": "CS117",
+      "target": "CS127",
+      "shared_students": 5
+    },
+    {
+      "source": "CS117",
+      "target": "CS128",
+      "shared_students": 2
+    },
+    {
+      "source": "CS117",
+      "target": "CS129",
+      "shared_students": 1
+    },
+    {
+      "source": "CS117",
+      "target": "CS130",
+      "shared_students": 1
+    },
+    {
+      "source": "CS118",
+      "target": "CS119",
+      "shared_students": 24
+    },
+    {
+      "source": "CS118",
+      "target": "CS120",
+      "shared_students": 15
+    },
+    {
+      "source": "CS118",
+      "target": "CS121",
+      "shared_students": 16
+    },
+    {
+      "source": "CS118",
+      "target": "CS122",
+      "shared_students": 21
+    },
+    {
+      "source": "CS118",
+      "target": "CS123",
+      "shared_students": 11
+    },
+    {
+      "source": "CS118",
+      "target": "CS124",
+      "shared_students": 18
+    },
+    {
+      "source": "CS118",
+      "target": "CS125",
+      "shared_students": 1
+    },
+    {
+      "source": "CS118",
+      "target": "CS127",
+      "shared_students": 2
+    },
+    {
+      "source": "CS118",
+      "target": "CS128",
+      "shared_students": 1
+    },
+    {
+      "source": "CS118",
+      "target": "CS129",
+      "shared_students": 1
+    },
+    {
+      "source": "CS118",
+      "target": "CS130",
+      "shared_students": 1
+    },
+    {
+      "source": "CS119",
+      "target": "CS120",
+      "shared_students": 17
+    },
+    {
+      "source": "CS119",
+      "target": "CS121",
+      "shared_students": 14
+    },
+    {
+      "source": "CS119",
+      "target": "CS122",
+      "shared_students": 25
+    },
+    {
+      "source": "CS119",
+      "target": "CS123",
+      "shared_students": 19
+    },
+    {
+      "source": "CS119",
+      "target": "CS124",
+      "shared_students": 21
+    },
+    {
+      "source": "CS119",
+      "target": "CS126",
+      "shared_students": 2
+    },
+    {
+      "source": "CS119",
+      "target": "CS127",
+      "shared_students": 1
+    },
+    {
+      "source": "CS119",
+      "target": "CS128",
+      "shared_students": 2
+    },
+    {
+      "source": "CS119",
+      "target": "CS129",
+      "shared_students": 2
+    },
+    {
+      "source": "CS119",
+      "target": "CS130",
+      "shared_students": 2
+    },
+    {
+      "source": "CS120",
+      "target": "CS121",
+      "shared_students": 22
+    },
+    {
+      "source": "CS120",
+      "target": "CS122",
+      "shared_students": 20
+    },
+    {
+      "source": "CS120",
+      "target": "CS123",
+      "shared_students": 17
+    },
+    {
+      "source": "CS120",
+      "target": "CS124",
+      "shared_students": 25
+    },
+    {
+      "source": "CS120",
+      "target": "CS126",
+      "shared_students": 3
+    },
+    {
+      "source": "CS120",
+      "target": "CS127",
+      "shared_students": 2
+    },
+    {
+      "source": "CS120",
+      "target": "CS129",
+      "shared_students": 2
+    },
+    {
+      "source": "CS120",
+      "target": "CS130",
+      "shared_students": 1
+    },
+    {
+      "source": "CS121",
+      "target": "CS122",
+      "shared_students": 20
+    },
+    {
+      "source": "CS121",
+      "target": "CS123",
+      "shared_students": 15
+    },
+    {
+      "source": "CS121",
+      "target": "CS124",
+      "shared_students": 21
+    },
+    {
+      "source": "CS121",
+      "target": "CS125",
+      "shared_students": 2
+    },
+    {
+      "source": "CS121",
+      "target": "CS126",
+      "shared_students": 2
+    },
+    {
+      "source": "CS121",
+      "target": "CS127",
+      "shared_students": 2
+    },
+    {
+      "source": "CS121",
+      "target": "CS128",
+      "shared_students": 1
+    },
+    {
+      "source": "CS121",
+      "target": "CS129",
+      "shared_students": 1
+    },
+    {
+      "source": "CS121",
+      "target": "CS130",
+      "shared_students": 1
+    },
+    {
+      "source": "CS122",
+      "target": "CS123",
+      "shared_students": 18
+    },
+    {
+      "source": "CS122",
+      "target": "CS124",
+      "shared_students": 23
+    },
+    {
+      "source": "CS122",
+      "target": "CS125",
+      "shared_students": 1
+    },
+    {
+      "source": "CS122",
+      "target": "CS126",
+      "shared_students": 2
+    },
+    {
+      "source": "CS122",
+      "target": "CS127",
+      "shared_students": 3
+    },
+    {
+      "source": "CS122",
+      "target": "CS128",
+      "shared_students": 2
+    },
+    {
+      "source": "CS122",
+      "target": "CS129",
+      "shared_students": 2
+    },
+    {
+      "source": "CS122",
+      "target": "CS130",
+      "shared_students": 2
+    },
+    {
+      "source": "CS123",
+      "target": "CS124",
+      "shared_students": 18
+    },
+    {
+      "source": "CS123",
+      "target": "CS126",
+      "shared_students": 1
+    },
+    {
+      "source": "CS123",
+      "target": "CS127",
+      "shared_students": 2
+    },
+    {
+      "source": "CS123",
+      "target": "CS128",
+      "shared_students": 1
+    },
+    {
+      "source": "CS123",
+      "target": "CS129",
+      "shared_students": 3
+    },
+    {
+      "source": "CS123",
+      "target": "CS130",
+      "shared_students": 3
+    },
+    {
+      "source": "CS124",
+      "target": "CS126",
+      "shared_students": 1
+    },
+    {
+      "source": "CS124",
+      "target": "CS127",
+      "shared_students": 2
+    },
+    {
+      "source": "CS125",
+      "target": "CS126",
+      "shared_students": 39
+    },
+    {
+      "source": "CS125",
+      "target": "CS127",
+      "shared_students": 42
+    },
+    {
+      "source": "CS125",
+      "target": "CS128",
+      "shared_students": 35
+    },
+    {
+      "source": "CS125",
+      "target": "CS129",
+      "shared_students": 37
+    },
+    {
+      "source": "CS125",
+      "target": "CS130",
+      "shared_students": 39
+    },
+    {
+      "source": "CS126",
+      "target": "CS127",
+      "shared_students": 41
+    },
+    {
+      "source": "CS126",
+      "target": "CS128",
+      "shared_students": 39
+    },
+    {
+      "source": "CS126",
+      "target": "CS129",
+      "shared_students": 40
+    },
+    {
+      "source": "CS126",
+      "target": "CS130",
+      "shared_students": 42
+    },
+    {
+      "source": "CS127",
+      "target": "CS128",
+      "shared_students": 39
+    },
+    {
+      "source": "CS127",
+      "target": "CS129",
+      "shared_students": 40
+    },
+    {
+      "source": "CS127",
+      "target": "CS130",
+      "shared_students": 42
+    },
+    {
+      "source": "CS128",
+      "target": "CS129",
+      "shared_students": 37
+    },
+    {
+      "source": "CS128",
+      "target": "CS130",
+      "shared_students": 41
+    },
+    {
+      "source": "CS129",
+      "target": "CS130",
+      "shared_students": 42
+    }
+  ],
+  "adjacency_list": {
+    "CS101": [
+      "CS102",
+      "CS103",
+      "CS104",
+      "CS105",
+      "CS106",
+      "CS107",
+      "CS108",
+      "CS110",
+      "CS111",
+      "CS112",
+      "CS114",
+      "CS116",
+      "CS117",
+      "CS118",
+      "CS121",
+      "CS122",
+      "CS123",
+      "CS124",
+      "CS127",
+      "CS130"
+    ],
+    "CS102": [
+      "CS101",
+      "CS103",
+      "CS104",
+      "CS105",
+      "CS106",
+      "CS107",
+      "CS108",
+      "CS111",
+      "CS112",
+      "CS116",
+      "CS117",
+      "CS118",
+      "CS119",
+      "CS120",
+      "CS121",
+      "CS123",
+      "CS124",
+      "CS125",
+      "CS126",
+      "CS127",
+      "CS128",
+      "CS129",
+      "CS130"
+    ],
+    "CS103": [
+      "CS101",
+      "CS102",
+      "CS104",
+      "CS105",
+      "CS106",
+      "CS107",
+      "CS108",
+      "CS109",
+      "CS111",
+      "CS112",
+      "CS116",
+      "CS117",
+      "CS120",
+      "CS121",
+      "CS123",
+      "CS124",
+      "CS126",
+      "CS127",
+      "CS129",
+      "CS130"
+    ],
+    "CS104": [
+      "CS101",
+      "CS102",
+      "CS103",
+      "CS105",
+      "CS106",
+      "CS107",
+      "CS108",
+      "CS110",
+      "CS116",
+      "CS118",
+      "CS122",
+      "CS123",
+      "CS125",
+      "CS126",
+      "CS127",
+      "CS128",
+      "CS129",
+      "CS130"
+    ],
+    "CS105": [
+      "CS101",
+      "CS102",
+      "CS103",
+      "CS104",
+      "CS106",
+      "CS107",
+      "CS108",
+      "CS109",
+      "CS111",
+      "CS112",
+      "CS113",
+      "CS116",
+      "CS117",
+      "CS123",
+      "CS124",
+      "CS125",
+      "CS126",
+      "CS127",
+      "CS128",
+      "CS129"
+    ],
+    "CS106": [
+      "CS101",
+      "CS102",
+      "CS103",
+      "CS104",
+      "CS105",
+      "CS107",
+      "CS108",
+      "CS110",
+      "CS111",
+      "CS112",
+      "CS113",
+      "CS114",
+      "CS115",
+      "CS117",
+      "CS121",
+      "CS123",
+      "CS127",
+      "CS130"
+    ],
+    "CS107": [
+      "CS101",
+      "CS102",
+      "CS103",
+      "CS104",
+      "CS105",
+      "CS106",
+      "CS108",
+      "CS110",
+      "CS111",
+      "CS112",
+      "CS114",
+      "CS115",
+      "CS116",
+      "CS117",
+      "CS120",
+      "CS121",
+      "CS124",
+      "CS128",
+      "CS130"
+    ],
+    "CS108": [
+      "CS101",
+      "CS102",
+      "CS103",
+      "CS104",
+      "CS105",
+      "CS106",
+      "CS107",
+      "CS109",
+      "CS110",
+      "CS111",
+      "CS112",
+      "CS113",
+      "CS116",
+      "CS117",
+      "CS122",
+      "CS123",
+      "CS124",
+      "CS128",
+      "CS130"
+    ],
+    "CS109": [
+      "CS103",
+      "CS105",
+      "CS108",
+      "CS110",
+      "CS111",
+      "CS112",
+      "CS113",
+      "CS114",
+      "CS115",
+      "CS116",
+      "CS117",
+      "CS119",
+      "CS120",
+      "CS121",
+      "CS122",
+      "CS123",
+      "CS124",
+      "CS126",
+      "CS127",
+      "CS128",
+      "CS129",
+      "CS130"
+    ],
+    "CS110": [
+      "CS101",
+      "CS104",
+      "CS106",
+      "CS107",
+      "CS108",
+      "CS109",
+      "CS111",
+      "CS112",
+      "CS113",
+      "CS114",
+      "CS115",
+      "CS116",
+      "CS117",
+      "CS119",
+      "CS120",
+      "CS121",
+      "CS122",
+      "CS124",
+      "CS125",
+      "CS126",
+      "CS127",
+      "CS128",
+      "CS130"
+    ],
+    "CS111": [
+      "CS101",
+      "CS102",
+      "CS103",
+      "CS105",
+      "CS106",
+      "CS107",
+      "CS108",
+      "CS109",
+      "CS110",
+      "CS112",
+      "CS113",
+      "CS114",
+      "CS115",
+      "CS116",
+      "CS117",
+      "CS119",
+      "CS120",
+      "CS121",
+      "CS123",
+      "CS124",
+      "CS125",
+      "CS126",
+      "CS127",
+      "CS129",
+      "CS130"
+    ],
+    "CS112": [
+      "CS101",
+      "CS102",
+      "CS103",
+      "CS105",
+      "CS106",
+      "CS107",
+      "CS108",
+      "CS109",
+      "CS110",
+      "CS111",
+      "CS113",
+      "CS114",
+      "CS115",
+      "CS116",
+      "CS117",
+      "CS119",
+      "CS120",
+      "CS121",
+      "CS122",
+      "CS127",
+      "CS128",
+      "CS130"
+    ],
+    "CS113": [
+      "CS105",
+      "CS106",
+      "CS108",
+      "CS109",
+      "CS110",
+      "CS111",
+      "CS112",
+      "CS114",
+      "CS115",
+      "CS116",
+      "CS117",
+      "CS119",
+      "CS120",
+      "CS121",
+      "CS122",
+      "CS124",
+      "CS125",
+      "CS127",
+      "CS128",
+      "CS129"
+    ],
+    "CS114": [
+      "CS101",
+      "CS106",
+      "CS107",
+      "CS109",
+      "CS110",
+      "CS111",
+      "CS112",
+      "CS113",
+      "CS115",
+      "CS116",
+      "CS117",
+      "CS119",
+      "CS120",
+      "CS122",
+      "CS123",
+      "CS124",
+      "CS127",
+      "CS128",
+      "CS129"
+    ],
+    "CS115": [
+      "CS106",
+      "CS107",
+      "CS109",
+      "CS110",
+      "CS111",
+      "CS112",
+      "CS113",
+      "CS114",
+      "CS116",
+      "CS117",
+      "CS119",
+      "CS120",
+      "CS123",
+      "CS124",
+      "CS127",
+      "CS128",
+      "CS130"
+    ],
+    "CS116": [
+      "CS101",
+      "CS102",
+      "CS103",
+      "CS104",
+      "CS105",
+      "CS107",
+      "CS108",
+      "CS109",
+      "CS110",
+      "CS111",
+      "CS112",
+      "CS113",
+      "CS114",
+      "CS115",
+      "CS117",
+      "CS118",
+      "CS119",
+      "CS122",
+      "CS123",
+      "CS124",
+      "CS127",
+      "CS128"
+    ],
+    "CS117": [
+      "CS101",
+      "CS102",
+      "CS103",
+      "CS105",
+      "CS106",
+      "CS107",
+      "CS108",
+      "CS109",
+      "CS110",
+      "CS111",
+      "CS112",
+      "CS113",
+      "CS114",
+      "CS115",
+      "CS116",
+      "CS118",
+      "CS119",
+      "CS120",
+      "CS121",
+      "CS122",
+      "CS123",
+      "CS124",
+      "CS125",
+      "CS126",
+      "CS127",
+      "CS128",
+      "CS129",
+      "CS130"
+    ],
+    "CS118": [
+      "CS101",
+      "CS102",
+      "CS104",
+      "CS116",
+      "CS117",
+      "CS119",
+      "CS120",
+      "CS121",
+      "CS122",
+      "CS123",
+      "CS124",
+      "CS125",
+      "CS127",
+      "CS128",
+      "CS129",
+      "CS130"
+    ],
+    "CS119": [
+      "CS102",
+      "CS109",
+      "CS110",
+      "CS111",
+      "CS112",
+      "CS113",
+      "CS114",
+      "CS115",
+      "CS116",
+      "CS117",
+      "CS118",
+      "CS120",
+      "CS121",
+      "CS122",
+      "CS123",
+      "CS124",
+      "CS126",
+      "CS127",
+      "CS128",
+      "CS129",
+      "CS130"
+    ],
+    "CS120": [
+      "CS102",
+      "CS103",
+      "CS107",
+      "CS109",
+      "CS110",
+      "CS111",
+      "CS112",
+      "CS113",
+      "CS114",
+      "CS115",
+      "CS117",
+      "CS118",
+      "CS119",
+      "CS121",
+      "CS122",
+      "CS123",
+      "CS124",
+      "CS126",
+      "CS127",
+      "CS129",
+      "CS130"
+    ],
+    "CS121": [
+      "CS101",
+      "CS102",
+      "CS103",
+      "CS106",
+      "CS107",
+      "CS109",
+      "CS110",
+      "CS111",
+      "CS112",
+      "CS113",
+      "CS117",
+      "CS118",
+      "CS119",
+      "CS120",
+      "CS122",
+      "CS123",
+      "CS124",
+      "CS125",
+      "CS126",
+      "CS127",
+      "CS128",
+      "CS129",
+      "CS130"
+    ],
+    "CS122": [
+      "CS101",
+      "CS104",
+      "CS108",
+      "CS109",
+      "CS110",
+      "CS112",
+      "CS113",
+      "CS114",
+      "CS116",
+      "CS117",
+      "CS118",
+      "CS119",
+      "CS120",
+      "CS121",
+      "CS123",
+      "CS124",
+      "CS125",
+      "CS126",
+      "CS127",
+      "CS128",
+      "CS129",
+      "CS130"
+    ],
+    "CS123": [
+      "CS101",
+      "CS102",
+      "CS103",
+      "CS104",
+      "CS105",
+      "CS106",
+      "CS108",
+      "CS109",
+      "CS111",
+      "CS114",
+      "CS115",
+      "CS116",
+      "CS117",
+      "CS118",
+      "CS119",
+      "CS120",
+      "CS121",
+      "CS122",
+      "CS124",
+      "CS126",
+      "CS127",
+      "CS128",
+      "CS129",
+      "CS130"
+    ],
+    "CS124": [
+      "CS101",
+      "CS102",
+      "CS103",
+      "CS105",
+      "CS107",
+      "CS108",
+      "CS109",
+      "CS110",
+      "CS111",
+      "CS113",
+      "CS114",
+      "CS115",
+      "CS116",
+      "CS117",
+      "CS118",
+      "CS119",
+      "CS120",
+      "CS121",
+      "CS122",
+      "CS123",
+      "CS126",
+      "CS127"
+    ],
+    "CS125": [
+      "CS102",
+      "CS104",
+      "CS105",
+      "CS110",
+      "CS111",
+      "CS113",
+      "CS117",
+      "CS118",
+      "CS121",
+      "CS122",
+      "CS126",
+      "CS127",
+      "CS128",
+      "CS129",
+      "CS130"
+    ],
+    "CS126": [
+      "CS102",
+      "CS103",
+      "CS104",
+      "CS105",
+      "CS109",
+      "CS110",
+      "CS111",
+      "CS117",
+      "CS119",
+      "CS120",
+      "CS121",
+      "CS122",
+      "CS123",
+      "CS124",
+      "CS125",
+      "CS127",
+      "CS128",
+      "CS129",
+      "CS130"
+    ],
+    "CS127": [
+      "CS101",
+      "CS102",
+      "CS103",
+      "CS104",
+      "CS105",
+      "CS106",
+      "CS109",
+      "CS110",
+      "CS111",
+      "CS112",
+      "CS113",
+      "CS114",
+      "CS115",
+      "CS116",
+      "CS117",
+      "CS118",
+      "CS119",
+      "CS120",
+      "CS121",
+      "CS122",
+      "CS123",
+      "CS124",
+      "CS125",
+      "CS126",
+      "CS128",
+      "CS129",
+      "CS130"
+    ],
+    "CS128": [
+      "CS102",
+      "CS104",
+      "CS105",
+      "CS107",
+      "CS108",
+      "CS109",
+      "CS110",
+      "CS112",
+      "CS113",
+      "CS114",
+      "CS115",
+      "CS116",
+      "CS117",
+      "CS118",
+      "CS119",
+      "CS121",
+      "CS122",
+      "CS123",
+      "CS125",
+      "CS126",
+      "CS127",
+      "CS129",
+      "CS130"
+    ],
+    "CS129": [
+      "CS102",
+      "CS103",
+      "CS104",
+      "CS105",
+      "CS109",
+      "CS111",
+      "CS113",
+      "CS114",
+      "CS117",
+      "CS118",
+      "CS119",
+      "CS120",
+      "CS121",
+      "CS122",
+      "CS123",
+      "CS125",
+      "CS126",
+      "CS127",
+      "CS128",
+      "CS130"
+    ],
+    "CS130": [
+      "CS101",
+      "CS102",
+      "CS103",
+      "CS104",
+      "CS106",
+      "CS107",
+      "CS108",
+      "CS109",
+      "CS110",
+      "CS111",
+      "CS112",
+      "CS115",
+      "CS117",
+      "CS118",
+      "CS119",
+      "CS120",
+      "CS121",
+      "CS122",
+      "CS123",
+      "CS125",
+      "CS126",
+      "CS127",
+      "CS128",
+      "CS129"
+    ]
+  },
+  "density": 0.7264367816091954
+}

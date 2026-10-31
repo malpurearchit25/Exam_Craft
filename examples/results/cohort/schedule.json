@@ -1,0 +1,716 @@
+{
+  "schema_version": 1,
+  "algorithm": "dsatur",
+  "configuration": {
+    "start_date": "2026-11-02",
+    "slots_per_day": 3,
+    "skip_weekends": true
+  },
+  "courses": [
+    {
+      "id": "CS101",
+      "name": "Discrete Mathematics",
+      "enrollment": 43
+    },
+    {
+      "id": "CS102",
+      "name": "Data Structures",
+      "enrollment": 46
+    },
+    {
+      "id": "CS103",
+      "name": "Computer Networks",
+      "enrollment": 47
+    },
+    {
+      "id": "CS104",
+      "name": "Database Systems",
+      "enrollment": 47
+    },
+    {
+      "id": "CS105",
+      "name": "Operating Systems",
+      "enrollment": 43
+    },
+    {
+      "id": "CS106",
+      "name": "Linear Algebra",
+      "enrollment": 32
+    },
+    {
+      "id": "CS107",
+      "name": "Programming in C",
+      "enrollment": 40
+    },
+    {
+      "id": "CS108",
+      "name": "Object Oriented Programming",
+      "enrollment": 37
+    },
+    {
+      "id": "CS109",
+      "name": "Probability & Statistics",
+      "enrollment": 49
+    },
+    {
+      "id": "CS110",
+      "name": "Software Engineering",
+      "enrollment": 39
+    },
+    {
+      "id": "CS111",
+      "name": "Theory of Computation",
+      "enrollment": 45
+    },
+    {
+      "id": "CS112",
+      "name": "Web Technologies",
+      "enrollment": 52
+    },
+    {
+      "id": "CS113",
+      "name": "Digital Logic",
+      "enrollment": 35
+    },
+    {
+      "id": "CS114",
+      "name": "Computer Architecture",
+      "enrollment": 40
+    },
+    {
+      "id": "CS115",
+      "name": "Design & Analysis of Algorithms",
+      "enrollment": 34
+    },
+    {
+      "id": "CS116",
+      "name": "Artificial Intelligence",
+      "enrollment": 50
+    },
+    {
+      "id": "CS117",
+      "name": "Compiler Design",
+      "enrollment": 40
+    },
+    {
+      "id": "CS118",
+      "name": "Information Security",
+      "enrollment": 35
+    },
+    {
+      "id": "CS119",
+      "name": "Machine Learning",
+      "enrollment": 43
+    },
+    {
+      "id": "CS120",
+      "name": "Numerical Methods",
+      "enrollment": 43
+    },
+    {
+      "id": "CS121",
+      "name": "Cloud Computing",
+      "enrollment": 37
+    },
+    {
+      "id": "CS122",
+      "name": "Human Computer Interaction",
+      "enrollment": 48
+    },
+    {
+      "id": "CS123",
+      "name": "Embedded Systems",
+      "enrollment": 41
+    },
+    {
+      "id": "CS124",
+      "name": "Data Science",
+      "enrollment": 47
+    },
+    {
+      "id": "CS125",
+      "name": "Graph Theory",
+      "enrollment": 50
+    },
+    {
+      "id": "CS126",
+      "name": "Mobile Computing",
+      "enrollment": 58
+    },
+    {
+      "id": "CS127",
+      "name": "Distributed Systems",
+      "enrollment": 65
+    },
+    {
+      "id": "CS128",
+      "name": "Optimization Techniques",
+      "enrollment": 54
+    },
+    {
+      "id": "CS129",
+      "name": "Computer Graphics",
+      "enrollment": 56
+    },
+    {
+      "id": "CS130",
+      "name": "Internet of Things",
+      "enrollment": 60
+    }
+  ],
+  "assignments": [
+    {
+      "course_id": "CS101",
+      "slot": 3
+    },
+    {
+      "course_id": "CS102",
+      "slot": 6
+    },
+    {
+      "course_id": "CS103",
+      "slot": 1
+    },
+    {
+      "course_id": "CS104",
+      "slot": 4
+    },
+    {
+      "course_id": "CS105",
+      "slot": 12
+    },
+    {
+      "course_id": "CS106",
+      "slot": 11
+    },
+    {
+      "course_id": "CS107",
+      "slot": 8
+    },
+    {
+      "course_id": "CS108",
+      "slot": 2
+    },
+    {
+      "course_id": "CS109",
+      "slot": 6
+    },
+    {
+      "course_id": "CS110",
+      "slot": 10
+    },
+    {
+      "course_id": "CS111",
+      "slot": 9
+    },
+    {
+      "course_id": "CS112",
+      "slot": 13
+    },
+    {
+      "course_id": "CS113",
+      "slot": 5
+    },
+    {
+      "course_id": "CS114",
+      "slot": 12
+    },
+    {
+      "course_id": "CS115",
+      "slot": 2
+    },
+    {
+      "course_id": "CS116",
+      "slot": 7
+    },
+    {
+      "course_id": "CS117",
+      "slot": 4
+    },
+    {
+      "course_id": "CS118",
+      "slot": 11
+    },
+    {
+      "course_id": "CS119",
+      "slot": 1
+    },
+    {
+      "course_id": "CS120",
+      "slot": 3
+    },
+    {
+      "course_id": "CS121",
+      "slot": 7
+    },
+    {
+      "course_id": "CS122",
+      "slot": 9
+    },
+    {
+      "course_id": "CS123",
+      "slot": 10
+    },
+    {
+      "course_id": "CS124",
+      "slot": 13
+    },
+    {
+      "course_id": "CS125",
+      "slot": 1
+    },
+    {
+      "course_id": "CS126",
+      "slot": 11
+    },
+    {
+      "course_id": "CS127",
+      "slot": 8
+    },
+    {
+      "course_id": "CS128",
+      "slot": 3
+    },
+    {
+      "course_id": "CS129",
+      "slot": 13
+    },
+    {
+      "course_id": "CS130",
+      "slot": 5
+    }
+  ],
+  "slots": [
+    {
+      "slot": 1,
+      "date": "2026-11-02",
+      "day": "Monday",
+      "time": "09:00–11:00",
+      "position_in_day": 1,
+      "courses": [
+        "CS103",
+        "CS119",
+        "CS125"
+      ],
+      "student_exams": 140
+    },
+    {
+      "slot": 2,
+      "date": "2026-11-02",
+      "day": "Monday",
+      "time": "12:00–14:00",
+      "position_in_day": 2,
+      "courses": [
+        "CS108",
+        "CS115"
+      ],
+      "student_exams": 71
+    },
+    {
+      "slot": 3,
+      "date": "2026-11-02",
+      "day": "Monday",
+      "time": "15:00–17:00",
+      "position_in_day": 3,
+      "courses": [
+        "CS101",
+        "CS120",
+        "CS128"
+      ],
+      "student_exams": 140
+    },
+    {
+      "slot": 4,
+      "date": "2026-11-03",
+      "day": "Tuesday",
+      "time": "09:00–11:00",
+      "position_in_day": 1,
+      "courses": [
+        "CS104",
+        "CS117"
+      ],
+      "student_exams": 87
+    },
+    {
+      "slot": 5,
+      "date": "2026-11-03",
+      "day": "Tuesday",
+      "time": "12:00–14:00",
+      "position_in_day": 2,
+      "courses": [
+        "CS113",
+        "CS130"
+      ],
+      "student_exams": 95
+    },
+    {
+      "slot": 6,
+      "date": "2026-11-03",
+      "day": "Tuesday",
+      "time": "15:00–17:00",
+      "position_in_day": 3,
+      "courses": [
+        "CS102",
+        "CS109"
+      ],
+      "student_exams": 95
+    },
+    {
+      "slot": 7,
+      "date": "2026-11-04",
+      "day": "Wednesday",
+      "time": "09:00–11:00",
+      "position_in_day": 1,
+      "courses": [
+        "CS116",
+        "CS121"
+      ],
+      "student_exams": 87
+    },
+    {
+      "slot": 8,
+      "date": "2026-11-04",
+      "day": "Wednesday",
+      "time": "12:00–14:00",
+      "position_in_day": 2,
+      "courses": [
+        "CS107",
+        "CS127"
+      ],
+      "student_exams": 105
+    },
+    {
+      "slot": 9,
+      "date": "2026-11-04",
+      "day": "Wednesday",
+      "time": "15:00–17:00",
+      "position_in_day": 3,
+      "courses": [
+        "CS111",
+        "CS122"
+      ],
+      "student_exams": 93
+    },
+    {
+      "slot": 10,
+      "date": "2026-11-05",
+      "day": "Thursday",
+      "time": "09:00–11:00",
+      "position_in_day": 1,
+      "courses": [
+        "CS110",
+        "CS123"
+      ],
+      "student_exams": 80
+    },
+    {
+      "slot": 11,
+      "date": "2026-11-05",
+      "day": "Thursday",
+      "time": "12:00–14:00",
+      "position_in_day": 2,
+      "courses": [
+        "CS106",
+        "CS118",
+        "CS126"
+      ],
+      "student_exams": 125
+    },
+    {
+      "slot": 12,
+      "date": "2026-11-05",
+      "day": "Thursday",
+      "time": "15:00–17:00",
+      "position_in_day": 3,
+      "courses": [
+        "CS105",
+        "CS114"
+      ],
+      "student_exams": 83
+    },
+    {
+      "slot": 13,
+      "date": "2026-11-06",
+      "day": "Friday",
+      "time": "09:00–11:00",
+      "position_in_day": 1,
+      "courses": [
+        "CS112",
+        "CS124",
+        "CS129"
+      ],
+      "student_exams": 155
+    }
+  ],
+  "statistics": {
+    "courses": 30,
+    "students": 300,
+    "registrations": 1356,
+    "conflict_edges": 316,
+    "slots": 13,
+    "exam_days": 5,
+    "runtime_ms": 2.821,
+    "search_nodes": 0
+  },
+  "proof": {
+    "optimal": false,
+    "status": "heuristic",
+    "lower_bound": 11,
+    "upper_bound": 13,
+    "clique_witness": [
+      "CS117",
+      "CS127",
+      "CS111",
+      "CS123",
+      "CS102",
+      "CS103",
+      "CS121",
+      "CS130",
+      "CS120",
+      "CS129",
+      "CS126"
+    ],
+    "clique_size": 11
+  },
+  "soft_constraints": {
+    "before": {
+      "consecutive_exam_pairs": 253,
+      "students_with_consecutive_exams": 170
+    },
+    "after": {
+      "consecutive_exam_pairs": 108,
+      "students_with_consecutive_exams": 92
+    },
+    "optimization": {
+      "enabled": true,
+      "method": "two_sweep_color_class_swap",
+      "before": 253,
+      "after": 108,
+      "accepted_swaps": 10
+    }
+  },
+  "validation": {
+    "valid": true,
+    "missing_courses": [],
+    "unknown_courses": [],
+    "invalid_slot_courses": [],
+    "student_clashes": [],
+    "clash_count": 0,
+    "checked_students": 300,
+    "checked_registrations": 1356
+  },
+  "warnings": [],
+  "algorithm_trace": [
+    {
+      "step": 1,
+      "course_id": "CS117",
+      "slot": 1,
+      "degree": 28,
+      "saturation": 0
+    },
+    {
+      "step": 2,
+      "course_id": "CS127",
+      "slot": 2,
+      "degree": 27,
+      "saturation": 1
+    },
+    {
+      "step": 3,
+      "course_id": "CS111",
+      "slot": 3,
+      "degree": 25,
+      "saturation": 2
+    },
+    {
+      "step": 4,
+      "course_id": "CS123",
+      "slot": 4,
+      "degree": 24,
+      "saturation": 3
+    },
+    {
+      "step": 5,
+      "course_id": "CS130",
+      "slot": 5,
+      "degree": 24,
+      "saturation": 4
+    },
+    {
+      "step": 6,
+      "course_id": "CS102",
+      "slot": 6,
+      "degree": 23,
+      "saturation": 5
+    },
+    {
+      "step": 7,
+      "course_id": "CS121",
+      "slot": 7,
+      "degree": 23,
+      "saturation": 6
+    },
+    {
+      "step": 8,
+      "course_id": "CS119",
+      "slot": 8,
+      "degree": 21,
+      "saturation": 7
+    },
+    {
+      "step": 9,
+      "course_id": "CS120",
+      "slot": 9,
+      "degree": 21,
+      "saturation": 8
+    },
+    {
+      "step": 10,
+      "course_id": "CS129",
+      "slot": 10,
+      "degree": 20,
+      "saturation": 9
+    },
+    {
+      "step": 11,
+      "course_id": "CS126",
+      "slot": 11,
+      "degree": 19,
+      "saturation": 10
+    },
+    {
+      "step": 12,
+      "course_id": "CS109",
+      "slot": 6,
+      "degree": 22,
+      "saturation": 10
+    },
+    {
+      "step": 13,
+      "course_id": "CS122",
+      "slot": 3,
+      "degree": 22,
+      "saturation": 10
+    },
+    {
+      "step": 14,
+      "course_id": "CS128",
+      "slot": 9,
+      "degree": 23,
+      "saturation": 10
+    },
+    {
+      "step": 15,
+      "course_id": "CS103",
+      "slot": 8,
+      "degree": 20,
+      "saturation": 10
+    },
+    {
+      "step": 16,
+      "course_id": "CS118",
+      "slot": 11,
+      "degree": 16,
+      "saturation": 10
+    },
+    {
+      "step": 17,
+      "course_id": "CS110",
+      "slot": 4,
+      "degree": 23,
+      "saturation": 9
+    },
+    {
+      "step": 18,
+      "course_id": "CS125",
+      "slot": 8,
+      "degree": 15,
+      "saturation": 10
+    },
+    {
+      "step": 19,
+      "course_id": "CS112",
+      "slot": 10,
+      "degree": 22,
+      "saturation": 9
+    },
+    {
+      "step": 20,
+      "course_id": "CS101",
+      "slot": 9,
+      "degree": 20,
+      "saturation": 10
+    },
+    {
+      "step": 21,
+      "course_id": "CS106",
+      "slot": 11,
+      "degree": 18,
+      "saturation": 10
+    },
+    {
+      "step": 22,
+      "course_id": "CS113",
+      "slot": 5,
+      "degree": 20,
+      "saturation": 10
+    },
+    {
+      "step": 23,
+      "course_id": "CS116",
+      "slot": 7,
+      "degree": 22,
+      "saturation": 10
+    },
+    {
+      "step": 24,
+      "course_id": "CS105",
+      "slot": 12,
+      "degree": 20,
+      "saturation": 11
+    },
+    {
+      "step": 25,
+      "course_id": "CS124",
+      "slot": 10,
+      "degree": 22,
+      "saturation": 11
+    },
+    {
+      "step": 26,
+      "course_id": "CS107",
+      "slot": 2,
+      "degree": 19,
+      "saturation": 11
+    },
+    {
+      "step": 27,
+      "course_id": "CS108",
+      "slot": 13,
+      "degree": 19,
+      "saturation": 12
+    },
+    {
+      "step": 28,
+      "course_id": "CS104",
+      "slot": 1,
+      "degree": 18,
+      "saturation": 12
+    },
+    {
+      "step": 29,
+      "course_id": "CS114",
+      "slot": 12,
+      "degree": 19,
+      "saturation": 11
+    },
+    {
+      "step": 30,
+      "course_id": "CS115",
+      "slot": 13,
+      "degree": 17,
+      "saturation": 12
+    }
+  ],
+  "trace_note": "Trace records coloring before any calendar permutation; final assignments are authoritative."
+}
